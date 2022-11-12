@@ -1,0 +1,134 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;}
+    
+    body {
+        background: #e7e7e7;
+      }
+      #navbar{
+        position: sticky;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 4.5fr 2.5fr 1fr;
+        background: #333;
+        color: #fff;
+        padding: 0.5rem;
+        top: 0;
+        left: 0;
+        align-items: center;
+       
+    }
+    #navbar h2{text-align:center;
+    margin-right: 130px;}
+
+
+    #navbar a{color: #fff;
+    text-decoration: none;
+}
+ #navbar ul{list-style: none;}
+ #navbar span{color: red;}   
+ #navbar i{padding: 0.1rem;}  
+ #navbar i:hover{color: #999;}
+ #navbar ul{display: flex;}
+ #navbar ul li{margin: 0 0.3rem;}  
+ #navbar ul li:hover{background: coral;
+border: none;
+padding: 0.1rem;
+border-radius: 5px;}
+/* Showcase */
+.showcase div::before{
+    content: '';
+    
+    
+    
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+.showcase{ background: url(https://images.unsplash.com/photo-1516410529446-2c777cb7366d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60) no-repeat center center/cover;
+}
+.box h2{ font-size: 3rem;}
+
+.box p{ font-size: 1.2rem;}
+
+    /* section */
+    .d {
+       width: 250px;
+       height: 200px;
+       /* margin: 0 3rem; */
+       background: #333;
+       color: #fff;
+       padding: 1rem;
+    }
+    .grid{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3,auto);
+        grid-gap: 1rem;
+        /* float:right; */
+        /* align-content: center; */
+     }
+     .news span{color: red;}
+    .footer{
+      
+        margin-top: 2rem;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(4,auto);
+        grid-gap: 1rem;
+        
+    }
+   
+    footer{  
+        background: #333;
+        color: #fff;  
+        }
+    .footer div{
+      width: 180px;
+      height: 200px;
+      margin-top: 1rem;
+    }
+    .footer .email input{
+        margin: 0.4rem 0;
+        width: 150px;
+        padding: 0.2rem;
+    }
+    .footer .email button{
+        width: 150px;
+        color: #fff;
+        background: red;
+        padding: 0.1rem;
+        cursor: pointer;
+    }
+    .footer .email button:hover{
+        background: #333;
+    }
+    /* link */
+    .link ul{list-style: none;
+    }
+    .link ul li{padding: 0.6rem 0;}
+    .link ul li a{
+        color: #fff;
+        text-decoration: none;
+        
+    }
+    /* Join */
+    .footer .us a{
+        position: absolute;
+        color: #fff;
+        background: coral;
+        border-radius: 3px;
+        padding: 0.4rem;
+        text-decoration: none;
+        margin-top: 1rem;
+    }
+    .us a:hover{background: lightcoral;}
+    footer .cpright p{text-align: center;}
